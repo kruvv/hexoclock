@@ -1,0 +1,29 @@
+body {
+  font-family: "Open-Sans";
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+#clock {
+  font-weight: 300;
+  font-size: 120px;
+}
+
+@media (min-width: 500px) {
+  .container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+#blocktext {
+  flex: 1;
+  order: 1;
+}
+#blockdata {
+  flex: 1;
+  order: 2;
+}
