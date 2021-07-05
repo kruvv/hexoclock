@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>hexoClock</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>hexoClock</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-  <div class="container">
-    <div id="blocktext">
-      <h2>This clock changes the background color depending on the time. *</h2>
-      <h4>* Эти часы меняют цвет фона в зависимости от времени</h4>
+  <body>
+    <div class="container">
+      <div id="blocktext" class="blocktext">
+        This clock changes the background color depending on the time. *
+      </div>
+      <div id="blockdata" class="blockdata">
+        <div id="clock" class="blockdata__clock">00:00:00</div>
+        <div class="color">
+          <div class="color__title">color:</div>
+          <div id="color" class="color__color">#000000</div>
+        </div>
+      </div>
+      <div class="footer">* Часы меняют цвет фона в зависимости от времени</div>
     </div>
-    <div id="blockdata">
-      <h1 id="clock">00:00:00</h1>
-      <p id="color">#000000</p>
-    </div>
-  </div>
-  <script src="js/script.js"></script>
-</body>
 
+    <script src="js/script.js"></script>
+  </body>
 </html>
